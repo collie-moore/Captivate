@@ -4,6 +4,7 @@
 }
 
 // Styles for Landing page
+
 .landing {
   background-image: url("../images/Background.jpg");
   background-repeat: no-repeat;
@@ -108,6 +109,70 @@
     img {
       height: 100%;
       width: 100%;
+    }
+  }
+}
+
+// Styles for solutions section.
+
+.solutions {
+  background-color: #f8f9fa;
+  text-align: center;
+
+  padding: 4rem 10rem;
+
+  .title {
+    color: #3f3d56;
+    font-size: 2.1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  hr {
+    background-color: rgb(114, 112, 112);
+    width: 10%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+  }
+
+  .lead {
+    margin: 0 12rem;
+    margin-bottom: 3rem;
+    color: #666568;
+  }
+
+  .cards {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.2rem;
+
+    li {
+      background-color: white;
+      border-radius: 10px;
+      padding: 2.3rem 2rem;
+      box-shadow: 1px 2px 20px rgb(160, 158, 158);
+
+      h1 {
+        color: #49c0b6;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 0.95rem;
+        margin-top: 1rem;
+      }
     }
   }
 }
