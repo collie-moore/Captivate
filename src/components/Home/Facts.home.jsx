@@ -14,21 +14,21 @@ export default function Facts_home() {
       <ul className="stats">
         <li>
           <h2>
-            <i class="far fa-folder-open"></i>
+            <i className="far fa-folder-open"></i>
           </h2>
           <h3>384</h3>
           <p>Projects</p>
         </li>
         <li>
           <h2>
-            <i class="fas fa-headphones"></i>
+            <i className="fas fa-headphones"></i>
           </h2>
           <h3>270</h3>
           <p>Consultant</p>
         </li>
         <li>
           <h2>
-            <i class="fas fa-trophy"></i>
+            <i className="fas fa-trophy"></i>
           </h2>
           <h3>150</h3>
           <p>Awards</p>
