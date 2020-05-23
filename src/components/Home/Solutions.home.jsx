@@ -13,7 +13,7 @@ export default function Solutions_home() {
       <ul className="cards">
         <li>
           <h1>
-            <i class="fas fa-briefcase"></i>
+            <i className="fas fa-briefcase"></i>
           </h1>
           <a href="#product">Business Services</a>
           <p>
@@ -23,7 +23,7 @@ export default function Solutions_home() {
         </li>
         <li>
           <h1>
-            <i class="fas fa-shield-alt"></i>
+            <i className="fas fa-shield-alt"></i>
           </h1>
           <a href="#product">Product Consulting</a>
           <p>
@@ -33,7 +33,7 @@ export default function Solutions_home() {
         </li>
         <li>
           <h1>
-            <i class="fas fa-dollar-sign"></i>
+            <i className="fas fa-dollar-sign"></i>
           </h1>
           <a href="#product">Finacial Consulting</a>
           <p>
@@ -43,7 +43,7 @@ export default function Solutions_home() {
         </li>
         <li>
           <h1>
-            <i class="fas fa-chart-area"></i>
+            <i className="fas fa-chart-area"></i>
           </h1>
           <a href="#product">Investment Planning</a>
           <p>
@@ -53,7 +53,7 @@ export default function Solutions_home() {
         </li>
         <li>
           <h1>
-            <i class="far fa-lightbulb"></i>
+            <i className="far fa-lightbulb"></i>
           </h1>
           <a href="#product">Business Growth</a>
           <p>
@@ -63,7 +63,7 @@ export default function Solutions_home() {
         </li>
         <li>
           <h1>
-            <i class="far fa-image"></i>
+            <i className="far fa-image"></i>
           </h1>
           <a href="#product">Projects Worldwide</a>
           <p>
