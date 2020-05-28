@@ -24,7 +24,7 @@ export default function News_home() {
               <i className="fas fa-user"></i> Johnson Smith
             </h6>
             <h6>
-              <i className="fas fa-calendar-alt"></i> May 20, 2020
+              <i className="fas fa-calendar-alt"></i> May 16, 2020
             </h6>
           </div>
         </li>
@@ -39,10 +39,10 @@ export default function News_home() {
           <hr />
           <div className="author">
             <h6>
-              <i className="fas fa-user"></i> Johnson Smith
+              <i className="fas fa-user"></i> Alexander
             </h6>
             <h6>
-              <i className="fas fa-calendar-alt"></i> May 20, 2020
+              <i className="fas fa-calendar-alt"></i> May 19, 2020
             </h6>
           </div>
         </li>
@@ -57,10 +57,10 @@ export default function News_home() {
           <hr />
           <div className="author">
             <h6>
-              <i className="fas fa-user"></i> Johnson Smith
+              <i className="fas fa-user"></i> Elizabeth ker
             </h6>
             <h6>
-              <i className="fas fa-calendar-alt"></i> May 20, 2020
+              <i className="fas fa-calendar-alt"></i> May 21, 2020
             </h6>
           </div>
         </li>
