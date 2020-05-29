@@ -15,9 +15,9 @@ export default function Sec2() {
           </div>
         </div>
         <div className="show">
-          <i className="fab fa-html5 icon"></i>
+          <i className="fas fa-gamepad icon"></i>
           <div>
-            <a href="#designers">For Designers</a>
+            <a href="#designers">For Developers</a>
             <p>
               Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio
               consectetur adipisicing elit.
@@ -25,9 +25,9 @@ export default function Sec2() {
           </div>
         </div>
         <div className="show">
-          <i className="fab fa-html5 icon"></i>
+          <i className="fas fa-id-badge icon"></i>
           <div>
-            <a href="#designers">For Designers</a>
+            <a href="#designers">For Business</a>
             <p>
               Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio
               consectetur adipisicing elit.
@@ -43,7 +43,7 @@ export default function Sec2() {
       </div>
       <div className="col1">
         <div className="show">
-          <i className="fab fa-html5 icon"></i>
+          <i className="fab fa-css3 icon"></i>
           <div>
             <a href="#designers">For Designers</a>
             <p>
@@ -53,9 +53,9 @@ export default function Sec2() {
           </div>
         </div>
         <div className="show">
-          <i className="fab fa-html5 icon"></i>
+          <i className="far fa-keyboard icon"></i>
           <div>
-            <a href="#designers">For Designers</a>
+            <a href="#designers">For Developers</a>
             <p>
               Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio
               consectetur adipisicing elit.
@@ -63,9 +63,9 @@ export default function Sec2() {
           </div>
         </div>
         <div className="show">
-          <i className="fab fa-html5 icon"></i>
+          <i className="fas fa-recycle icon"></i>
           <div>
-            <a href="#designers">For Designers</a>
+            <a href="#designers">For Business</a>
             <p>
               Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio
               consectetur adipisicing elit.
