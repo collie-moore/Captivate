@@ -14,6 +14,26 @@ export default function Sec2() {
             </p>
           </div>
         </div>
+        <div className="show">
+          <i className="fab fa-html5 icon"></i>
+          <div>
+            <a href="#designers">For Designers</a>
+            <p>
+              Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div className="show">
+          <i className="fab fa-html5 icon"></i>
+          <div>
+            <a href="#designers">For Designers</a>
+            <p>
+              Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
       </div>
       <div className="image-div">
         <img
@@ -21,7 +41,38 @@ export default function Sec2() {
           alt="mobile site"
         />
       </div>
-      <div>hello 2</div>
+      <div className="col1">
+        <div className="show">
+          <i className="fab fa-html5 icon"></i>
+          <div>
+            <a href="#designers">For Designers</a>
+            <p>
+              Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div className="show">
+          <i className="fab fa-html5 icon"></i>
+          <div>
+            <a href="#designers">For Designers</a>
+            <p>
+              Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div className="show">
+          <i className="fab fa-html5 icon"></i>
+          <div>
+            <a href="#designers">For Designers</a>
+            <p>
+              Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
