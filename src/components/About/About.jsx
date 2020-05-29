@@ -9,6 +9,7 @@ export default function About() {
     <div className="About">
       <Section_1 />
       <Section_2 />
+      <Section_3 />
     </div>
   );
 }
