@@ -16,8 +16,29 @@ export default function Navbar() {
           <li>
             <Link to="/about">ABOUT</Link>
           </li>
-          <li>
-            <Link to="/services">SERVICES</Link>
+          <li className="drop">
+            <span>
+              BLOG <i className="fas fa-sort-down icon"></i>
+            </span>
+            <ul>
+              <li>
+                <a href="#blog1">Article 1</a>
+              </li>
+              <li>
+                <a href="#blog2">Article 2</a>
+              </li>
+              <li>
+                <a href="https://roberttk1.github.io/My-portfolio/">
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a href="#blog3">Article 3</a>
+              </li>
+              <li>
+                <a href="#blog4">Article 4</a>
+              </li>
+            </ul>
           </li>
         </ul>
         <Link to="/contact" className="contact">
