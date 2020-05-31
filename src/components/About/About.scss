@@ -1,5 +1,14 @@
 .About {
   padding: 9rem 0 0;
+  overflow-x: hidden;
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 65%;
+  }
+
+  @media only screen and (min-width: 1800px) {
+    font-size: 150%;
+  }
 
   .sec1 {
     max-height: 90vh;
@@ -7,6 +16,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1rem 8rem;
+    @media only screen and (max-width: 1000px) {
+      padding: 1rem 2rem;
+    }
     .first-sec {
       padding-right: 2rem;
       span {
@@ -50,21 +62,33 @@
     grid-gap: 1.5rem;
     padding: 3rem 11rem;
 
+    @media only screen and (max-width: 1000px) {
+      padding: 3rem 0.3rem;
+      font-size: 60%;
+    }
+
     .col1 {
       padding: 3rem 0;
       .show {
         display: flex;
         margin-bottom: 3.5rem;
+
         .icon {
           margin-right: 1.5rem;
           font-size: 2rem;
           color: #49c0b6;
+          @media only screen and (max-width: 1000px) {
+            font-size: 1.4rem;
+          }
         }
         a {
           text-decoration: none;
           font-size: 1.3rem;
           font-weight: 500;
           color: black;
+          @media only screen and (max-width: 1000px) {
+            font-size: 1rem;
+          }
 
           &:hover {
             color: #49c0b6;
@@ -85,6 +109,9 @@
     img {
       height: 600px;
       width: auto;
+      @media only screen and (max-width: 1000px) {
+        height: 450px;
+      }
     }
   }
 
@@ -93,6 +120,9 @@
   .sec3 {
     text-align: center;
     padding: 3rem 10rem;
+    @media only screen and (max-width: 1000px) {
+      padding: 3rem 1rem;
+    }
 
     h1 {
       color: #3f3d56;
@@ -121,6 +151,9 @@
       img {
         background-image: linear-gradient(to right, #114f8e 0%, #49c0b6 100%);
         border-radius: 50px;
+        @media only screen and (max-width: 1000px) {
+          height: 250px;
+        }
       }
       h4 {
         font-size: 1.3rem;

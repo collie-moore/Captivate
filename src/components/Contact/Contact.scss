@@ -1,11 +1,23 @@
 .contact {
   padding: 3rem 0 0;
+  overflow-x: hidden;
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 65%;
+  }
+
+  @media only screen and (min-width: 1800px) {
+    font-size: 150%;
+  }
 
   .section1 {
     border-bottom: 1px solid #3f3d56;
     .title {
       text-align: center;
       padding: 3rem 10rem;
+      @media only screen and (max-width: 1000px) {
+        padding: 3rem 2rem;
+      }
       h1 {
         color: #3f3d56;
         margin-left: auto;
@@ -30,6 +42,9 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       padding: 1rem 8rem;
+      @media only screen and (max-width: 1000px) {
+        padding: 1rem 2rem;
+      }
       .first-sec {
         padding-right: 2rem;
         h4 {
@@ -60,6 +75,9 @@
             font-size: 1.1rem;
             line-height: 1rem;
             margin-bottom: 0;
+            @media only screen and (max-width: 1000px) {
+              font-size: 90%;
+            }
           }
         }
 
@@ -93,6 +111,9 @@
 
   .section2 {
     padding: 3rem 8rem;
+    @media only screen and (max-width: 1000px) {
+      padding: 3rem 2rem;
+    }
 
     .title {
       text-align: center;

@@ -1,6 +1,15 @@
 .Home {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 65%;
+  }
+
+  @media only screen and (min-width: 1800px) {
+    font-size: 190%;
+  }
 }
 
 // Styles for Landing page
@@ -11,7 +20,6 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
-
   overflow: hidden;
 
   .info-container {
@@ -20,17 +28,27 @@
     grid-template-columns: 2fr 1fr;
     grid-gap: 0rem;
     padding: 11rem 9rem 0rem 7.4rem;
+    @media only screen and (max-width: 1000px) {
+      padding: 6rem 2rem 1rem 2rem;
+    }
   }
 
   .info {
     padding: 2rem 2rem;
+    @media only screen and (max-width: 1000px) {
+      padding: 1rem 0.5rem;
+    }
     h1 {
       font-size: 3.4rem;
       font-weight: 700;
       line-height: 3.8rem;
+      @media only screen and (max-width: 1000px) {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
 
       span {
-        font-weight: 500;
+        font-weight: 400;
       }
     }
 
@@ -48,6 +66,9 @@
       transition: background-color 0.5s;
       color: white;
       text-decoration: none;
+      @media only screen and (max-width: 1000px) {
+        font-size: 65%;
+      }
 
       &:hover {
         cursor: pointer;
@@ -74,6 +95,9 @@
     img {
       border-radius: 50%;
       height: 440px;
+      @media only screen and (max-width: 1000px) {
+        height: 350px;
+      }
     }
   }
 }
@@ -85,6 +109,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 4rem 9rem;
+  @media only screen and (max-width: 1000px) {
+    padding: 2rem 2rem;
+  }
 
   .first-sec {
     padding-right: 2.4rem;
@@ -118,14 +145,19 @@
 .solutions {
   background-color: #f8f9fa;
   text-align: center;
-
   padding: 5rem 10rem;
   padding-bottom: 6rem;
+  @media only screen and (max-width: 1000px) {
+    padding: 4rem 3rem;
+  }
 
   .title {
     color: #3f3d56;
     font-size: 2.1rem;
     margin-bottom: 0.6rem;
+    @media only screen and (max-width: 1000px) {
+      font-size: 1.5rem;
+    }
   }
 
   hr {
@@ -143,6 +175,10 @@
     margin: 0 12rem;
     margin-bottom: 3rem;
     color: #666568;
+    @media only screen and (max-width: 1000px) {
+      margin: 0 6rem;
+      margin-bottom: 2rem;
+    }
   }
 
   .cards {
@@ -156,11 +192,17 @@
       border-radius: 10px;
       padding: 2.3rem 2rem;
       box-shadow: 1px 2px 20px rgb(160, 158, 158);
+      @media only screen and (max-width: 1000px) {
+        padding: 1.5rem 1rem;
+      }
 
       h1 {
         color: #49c0b6;
         font-size: 1.8rem;
         margin-bottom: 1rem;
+        @media only screen and (max-width: 1000px) {
+          font-size: 1.3rem;
+        }
       }
 
       a {
@@ -168,11 +210,17 @@
         color: black;
         font-size: 1.3rem;
         font-weight: 500;
+        @media only screen and (max-width: 1000px) {
+          font-size: 1rem;
+        }
       }
 
       p {
         font-size: 0.95rem;
         margin-top: 1rem;
+        @media only screen and (max-width: 1000px) {
+          font-size: 0.6rem;
+        }
       }
     }
   }
@@ -191,7 +239,9 @@
   color: white;
   grid-template-columns: 2fr 3fr;
   padding: 5rem 9.5rem;
-  margin-bottom: 6rem;
+  @media only screen and (max-width: 1000px) {
+    padding: 3rem 3rem;
+  }
 
   .info {
     h1 {
@@ -204,16 +254,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 3rem;
+    @media only screen and (max-width: 1000px) {
+      padding-left: 1rem;
+    }
 
     li {
       text-align: center;
 
       h2 {
         font-size: 3rem;
+        @media only screen and (max-width: 1000px) {
+          font-size: 2rem;
+        }
       }
       h3 {
         font-size: 3.2rem;
         margin-bottom: 1rem;
+        @media only screen and (max-width: 1000px) {
+          font-size: 2rem;
+        }
       }
     }
   }
@@ -226,11 +285,17 @@
   background-color: #fdfdfd;
   padding: 5rem 10rem;
   padding-bottom: 6rem;
+  @media only screen and (max-width: 1000px) {
+    padding: 3rem 2rem;
+  }
 
   .title {
     color: #3f3d56;
     font-size: 2.1rem;
     margin-bottom: 0.6rem;
+    @media only screen and (max-width: 1000px) {
+      font-size: 1.8rem;
+    }
   }
 
   hr {
@@ -256,6 +321,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2rem;
+    @media only screen and (max-width: 1000px) {
+      grid-gap: 1rem;
+    }
 
     li {
       background-color: white;
@@ -266,9 +334,15 @@
         height: 230px;
         width: 100%;
         border-radius: 10px 10px 0 0;
+        @media only screen and (max-width: 1000px) {
+          height: 200px;
+        }
       }
       .link {
         padding: 0 1.5rem;
+        @media only screen and (max-width: 1000px) {
+          padding: 0.5rem;
+        }
 
         &:hover {
           a {
@@ -279,9 +353,11 @@
       a {
         text-decoration: none;
         color: #3f3d56;
-
         font-size: 1.3rem;
         font-weight: 500;
+        @media only screen and (max-width: 1000px) {
+          font-size: 0.9rem;
+        }
       }
 
       hr {
@@ -293,11 +369,17 @@
       .author {
         display: flex;
         padding: 0 1.5rem;
+        @media only screen and (max-width: 1000px) {
+          padding: 0 0.5rem;
+        }
 
         h6 {
           font-size: 0.9rem;
           color: rgb(165, 164, 164);
           margin-bottom: 1rem;
+          @media only screen and (max-width: 1000px) {
+            font-size: 0.6rem;
+          }
 
           &:last-of-type {
             margin-left: auto;
