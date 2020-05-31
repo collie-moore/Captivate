@@ -7,7 +7,7 @@ export default function Navbar() {
     <div>
       <nav className="Navbar">
         <Link to="/" className="logo">
-          <i className="fas fa-shield-alt"></i> CAPTIVATE
+          <i className="fas fa-shield-alt"></i> <span>CAPTIVATE</span>
         </Link>
         <ul>
           <li>
