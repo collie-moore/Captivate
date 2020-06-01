@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Captivate/static/css/main.a08387b2.chunk.css",
-    "main.js": "/Captivate/static/js/main.cda0d169.chunk.js",
-    "main.js.map": "/Captivate/static/js/main.cda0d169.chunk.js.map",
+    "main.css": "/Captivate/static/css/main.1b9d7c94.chunk.css",
+    "main.js": "/Captivate/static/js/main.75c9d8c8.chunk.js",
+    "main.js.map": "/Captivate/static/js/main.75c9d8c8.chunk.js.map",
     "runtime-main.js": "/Captivate/static/js/runtime-main.ffb022a1.js",
     "runtime-main.js.map": "/Captivate/static/js/runtime-main.ffb022a1.js.map",
     "static/js/2.2bcc80e4.chunk.js": "/Captivate/static/js/2.2bcc80e4.chunk.js",
     "static/js/2.2bcc80e4.chunk.js.map": "/Captivate/static/js/2.2bcc80e4.chunk.js.map",
     "index.html": "/Captivate/index.html",
-    "precache-manifest.71d005f0336ce10330cf274af6a57ae8.js": "/Captivate/precache-manifest.71d005f0336ce10330cf274af6a57ae8.js",
+    "precache-manifest.3c1a6adf31f09401792d67f7c64bc310.js": "/Captivate/precache-manifest.3c1a6adf31f09401792d67f7c64bc310.js",
     "service-worker.js": "/Captivate/service-worker.js",
-    "static/css/main.a08387b2.chunk.css.map": "/Captivate/static/css/main.a08387b2.chunk.css.map",
+    "static/css/main.1b9d7c94.chunk.css.map": "/Captivate/static/css/main.1b9d7c94.chunk.css.map",
     "static/js/2.2bcc80e4.chunk.js.LICENSE.txt": "/Captivate/static/js/2.2bcc80e4.chunk.js.LICENSE.txt",
     "static/media/Home.scss": "/Captivate/static/media/Background.f320143d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ffb022a1.js",
     "static/js/2.2bcc80e4.chunk.js",
-    "static/css/main.a08387b2.chunk.css",
-    "static/js/main.cda0d169.chunk.js"
+    "static/css/main.1b9d7c94.chunk.css",
+    "static/js/main.75c9d8c8.chunk.js"
   ]
 }
