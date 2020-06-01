@@ -6,6 +6,10 @@
     font-size: 65%;
   }
 
+  @media only screen and (max-width: 420px) {
+    font-size: 70%;
+    padding: 4rem 0 0;
+  }
   @media only screen and (min-width: 1800px) {
     font-size: 150%;
   }
@@ -19,8 +23,17 @@
     @media only screen and (max-width: 1000px) {
       padding: 1rem 2rem;
     }
+    @media only screen and (max-width: 420px) {
+      grid-template-columns: 1fr;
+      padding: 1rem 1rem;
+      overflow: hidden;
+      max-height: 100vh;
+    }
     .first-sec {
       padding-right: 2rem;
+      @media only screen and (max-width: 420px) {
+        padding-right: 0;
+      }
       span {
         background-color: #49c0b6;
         border-radius: 5px;
@@ -34,11 +47,17 @@
         color: #3f3d56;
         margin-top: 0.5rem;
         margin-bottom: 2rem;
+        @media only screen and (max-width: 420px) {
+          margin-bottom: 1rem;
+        }
       }
       p {
         color: gray;
         line-height: 1.7rem;
         margin-bottom: 1rem;
+        @media only screen and (max-width: 420px) {
+          font-size: 0.75rem;
+        }
       }
       h6 {
         font-size: 0.95rem;
@@ -66,12 +85,22 @@
       padding: 3rem 0.3rem;
       font-size: 60%;
     }
+    @media only screen and (max-width: 420px) {
+      grid-template-columns: 1fr;
+      padding: 1rem 3rem;
+    }
 
     .col1 {
       padding: 3rem 0;
+      @media only screen and (max-width: 420px) {
+        padding: 2rem 1rem;
+      }
       .show {
         display: flex;
         margin-bottom: 3.5rem;
+        @media only screen and (max-width: 420px) {
+          margin-bottom: 2rem;
+        }
 
         .icon {
           margin-right: 1.5rem;
@@ -79,6 +108,9 @@
           color: #49c0b6;
           @media only screen and (max-width: 1000px) {
             font-size: 1.4rem;
+          }
+          @media only screen and (max-width: 420px) {
+            font-size: 1.5rem;
           }
         }
         a {
@@ -89,6 +121,9 @@
           @media only screen and (max-width: 1000px) {
             font-size: 1rem;
           }
+          @media only screen and (max-width: 420px) {
+            font-size: 1.2rem;
+          }
 
           &:hover {
             color: #49c0b6;
@@ -97,6 +132,9 @@
         p {
           margin-top: 0.5rem;
           color: gray;
+          @media only screen and (max-width: 420px) {
+            font-size: 0.67rem;
+          }
         }
       }
     }
@@ -123,10 +161,16 @@
     @media only screen and (max-width: 1000px) {
       padding: 3rem 1rem;
     }
+    @media only screen and (max-width: 420px) {
+      padding: 2rem 1rem;
+    }
 
     h1 {
       color: #3f3d56;
       margin-bottom: 1rem;
+      @media only screen and (max-width: 420px) {
+        font-size: 1.4rem;
+      }
     }
     hr {
       width: 10%;
@@ -141,18 +185,29 @@
       padding: 0 7rem;
       color: gray;
       margin-bottom: 2rem;
+      @media only screen and (max-width: 420px) {
+        font-size: 0.74rem;
+        padding: 0 2rem;
+      }
     }
 
     .team {
       list-style-type: none;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
+      @media only screen and (max-width: 420px) {
+        grid-template-columns: 1fr;
+        grid-gap: 1.5rem;
+      }
 
       img {
         background-image: linear-gradient(to right, #114f8e 0%, #49c0b6 100%);
         border-radius: 50px;
         @media only screen and (max-width: 1000px) {
           height: 250px;
+        }
+        @media only screen and (max-width: 420px) {
+          height: 300px;
         }
       }
       h4 {
@@ -180,6 +235,4 @@
       }
     }
   }
-
-  //background-image: linear-gradient(to right, #114f8e 0%, #49c0b6 100%);
 }

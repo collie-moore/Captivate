@@ -6,6 +6,9 @@
   @media only screen and (max-width: 1000px) {
     font-size: 65%;
   }
+  @media only screen and (max-width: 420px) {
+    font-size: 60%;
+  }
 
   @media only screen and (min-width: 1800px) {
     font-size: 190%;
@@ -31,12 +34,21 @@
     @media only screen and (max-width: 1000px) {
       padding: 6rem 2rem 1rem 2rem;
     }
+    @media only screen and (max-width: 420px) {
+      grid-template-columns: 1fr;
+      padding: 4rem 0.8rem 1rem 0.8rem;
+      grid-gap: 0.5rem;
+    }
   }
 
   .info {
     padding: 2rem 2rem;
     @media only screen and (max-width: 1000px) {
       padding: 1rem 0.5rem;
+    }
+
+    @media only screen and (max-width: 420px) {
+      padding: 0.2rem 0.5rem;
     }
     h1 {
       font-size: 3.4rem;
@@ -45,6 +57,9 @@
       @media only screen and (max-width: 1000px) {
         font-size: 2rem;
         line-height: 2rem;
+      }
+      @media only screen and (max-width: 420px) {
+        font-size: 1.9rem;
       }
 
       span {
@@ -56,6 +71,11 @@
       font-weight: 400;
       color: rgb(235, 232, 232);
       margin: 2rem 0 4rem;
+
+      @media only screen and (max-width: 420px) {
+        font-size: 0.9rem;
+        margin: 1.5rem 0 2rem;
+      }
     }
 
     .read-btn {
@@ -68,6 +88,10 @@
       text-decoration: none;
       @media only screen and (max-width: 1000px) {
         font-size: 65%;
+      }
+      @media only screen and (max-width: 420px) {
+        font-size: 84%;
+        padding: 1rem 2rem;
       }
 
       &:hover {
@@ -82,6 +106,10 @@
       color: white;
       text-decoration: none;
       transition: color 0.5s, background-color 0.5s;
+      @media only screen and (max-width: 420px) {
+        margin-left: 4.6rem;
+        padding: 0.8rem 1.5rem;
+      }
 
       &:hover {
         cursor: pointer;
@@ -92,11 +120,21 @@
   }
 
   .picture {
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 420px) {
+      padding-top: 2rem;
+    }
     img {
       border-radius: 50%;
       height: 440px;
       @media only screen and (max-width: 1000px) {
         height: 350px;
+      }
+      @media only screen and (max-width: 420px) {
+        height: 240px;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
@@ -112,23 +150,41 @@
   @media only screen and (max-width: 1000px) {
     padding: 2rem 2rem;
   }
+  @media only screen and (max-width: 420px) {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
   .first-sec {
     padding-right: 2.4rem;
+    @media only screen and (max-width: 420px) {
+      padding-right: 0;
+    }
     h1 {
       font-weight: 500;
       font-size: 2.3rem;
       margin-bottom: 2rem;
       color: #3f3d56;
+      @media only screen and (max-width: 420px) {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
     }
     h4 {
       font-size: 1.3rem;
       color: #3f3d56;
       margin-bottom: 2rem;
+      @media only screen and (max-width: 420px) {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+      }
     }
     p {
       color: gray;
       line-height: 1.7rem;
+      @media only screen and (max-width: 420px) {
+        font-size: 0.75rem;
+      }
     }
   }
 
@@ -150,12 +206,18 @@
   @media only screen and (max-width: 1000px) {
     padding: 4rem 3rem;
   }
+  @media only screen and (max-width: 420px) {
+    padding: 2rem 1rem;
+  }
 
   .title {
     color: #3f3d56;
     font-size: 2.1rem;
     margin-bottom: 0.6rem;
     @media only screen and (max-width: 1000px) {
+      font-size: 1.5rem;
+    }
+    @media only screen and (max-width: 420px) {
       font-size: 1.5rem;
     }
   }
@@ -179,6 +241,11 @@
       margin: 0 6rem;
       margin-bottom: 2rem;
     }
+    @media only screen and (max-width: 420px) {
+      font-size: 0.7rem;
+      margin: 0 2rem;
+      margin-bottom: 1.5rem;
+    }
   }
 
   .cards {
@@ -186,6 +253,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2.2rem;
+    @media only screen and (max-width: 420px) {
+      grid-template-columns: 1fr;
+      grid-gap: 1.5rem;
+      padding: 0 2rem;
+    }
 
     li {
       background-color: white;
@@ -195,6 +267,9 @@
       @media only screen and (max-width: 1000px) {
         padding: 1.5rem 1rem;
       }
+      @media only screen and (max-width: 420px) {
+        padding: 1rem 1rem;
+      }
 
       h1 {
         color: #49c0b6;
@@ -203,15 +278,26 @@
         @media only screen and (max-width: 1000px) {
           font-size: 1.3rem;
         }
+        @media only screen and (max-width: 420px) {
+          margin-bottom: 0.6rem;
+        }
       }
 
       a {
         text-decoration: none;
         color: black;
+        outline: none;
         font-size: 1.3rem;
         font-weight: 500;
         @media only screen and (max-width: 1000px) {
           font-size: 1rem;
+        }
+        @media only screen and (max-width: 420px) {
+          font-size: 1.1rem;
+        }
+
+        &:hover {
+          color: #49c0b6;
         }
       }
 
@@ -220,6 +306,9 @@
         margin-top: 1rem;
         @media only screen and (max-width: 1000px) {
           font-size: 0.6rem;
+        }
+        @media only screen and (max-width: 420px) {
+          font-size: 0.72rem;
         }
       }
     }
@@ -242,10 +331,23 @@
   @media only screen and (max-width: 1000px) {
     padding: 3rem 3rem;
   }
+  @media only screen and (max-width: 420px) {
+    grid-template-columns: 1fr;
+    padding: 2rem 2rem;
+  }
 
   .info {
     h1 {
       margin-bottom: 1.5rem;
+      @media only screen and (max-width: 420px) {
+        font-size: 1.6rem;
+      }
+    }
+
+    p {
+      @media only screen and (max-width: 420px) {
+        font-size: 0.78rem;
+      }
     }
   }
 
@@ -256,6 +358,9 @@
     padding-left: 3rem;
     @media only screen and (max-width: 1000px) {
       padding-left: 1rem;
+    }
+    @media only screen and (max-width: 420px) {
+      padding-left: 0.5rem;
     }
 
     li {
@@ -274,6 +379,11 @@
           font-size: 2rem;
         }
       }
+      p {
+        @media only screen and (max-width: 420px) {
+          font-size: 0.72rem;
+        }
+      }
     }
   }
 }
@@ -288,6 +398,10 @@
   @media only screen and (max-width: 1000px) {
     padding: 3rem 2rem;
   }
+  @media only screen and (max-width: 420px) {
+    padding: 2rem 2rem;
+    padding-bottom: 3rem;
+  }
 
   .title {
     color: #3f3d56;
@@ -295,6 +409,9 @@
     margin-bottom: 0.6rem;
     @media only screen and (max-width: 1000px) {
       font-size: 1.8rem;
+    }
+    @media only screen and (max-width: 420px) {
+      font-size: 1.6rem;
     }
   }
 
@@ -313,6 +430,11 @@
     margin: 0 12rem;
     margin-bottom: 3rem;
     color: #666568;
+    @media only screen and (max-width: 420px) {
+      margin: 0 2rem;
+      font-size: 0.7rem;
+      margin-bottom: 2rem;
+    }
   }
 
   .cards {
@@ -323,6 +445,10 @@
     grid-gap: 2rem;
     @media only screen and (max-width: 1000px) {
       grid-gap: 1rem;
+    }
+    @media only screen and (max-width: 420px) {
+      grid-template-columns: 1fr;
+      grid-gap: 1.5rem;
     }
 
     li {
@@ -342,6 +468,12 @@
         padding: 0 1.5rem;
         @media only screen and (max-width: 1000px) {
           padding: 0.5rem;
+        }
+        @media only screen and (max-width: 420px) {
+          padding: 0 0.2rem;
+          a {
+            font-size: 0.855rem;
+          }
         }
 
         &:hover {
@@ -379,6 +511,9 @@
           margin-bottom: 1rem;
           @media only screen and (max-width: 1000px) {
             font-size: 0.6rem;
+          }
+          @media only screen and (max-width: 420px) {
+            font-size: 0.75rem;
           }
 
           &:last-of-type {
