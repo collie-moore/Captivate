@@ -14,29 +14,33 @@ export default function Section1_contact() {
       </div>
       <div className="row">
         <div className="first-sec">
-          <h4>We Are Here For You</h4>
-          <p>
-            For more information or inquiry about our products, projects and
-            pricing please feel free to get in touch with us.
-          </p>
-          <div className="show">
-            <i className="fas fa-map-marker-alt icon"></i>
+          <div>
+            <h4>We Are Here For You</h4>
             <p>
-              <span>Address: </span> 50 street Ave, Omaha, NE 68132, United
-              States.
+              For more information or inquiry about our products, projects and
+              pricing please feel free to get in touch with us.
             </p>
           </div>
-          <div className="show">
-            <i className="fas fa-phone-alt icon"></i>
-            <p>
-              <span>Phone: </span> +123 45 67 88, +123 45 67 88
-            </p>
-          </div>
-          <div className="show">
-            <i className="far fa-envelope-open icon"></i>
-            <p>
-              <span>Email: </span> Captivate@mail.com
-            </p>
+          <div>
+            <div className="show">
+              <i className="fas fa-map-marker-alt icon"></i>
+              <p>
+                <span>Address: </span> 50 street Ave, Omaha, NE 68132, United
+                States.
+              </p>
+            </div>
+            <div className="show">
+              <i className="fas fa-phone-alt icon"></i>
+              <p>
+                <span>Phone: </span> +123 45 67 88, +123 45 67 88
+              </p>
+            </div>
+            <div className="show">
+              <i className="far fa-envelope-open icon"></i>
+              <p>
+                <span>Email: </span> Captivate@mail.com
+              </p>
+            </div>
           </div>
           <div className="social">
             <span>Follow Us </span>
