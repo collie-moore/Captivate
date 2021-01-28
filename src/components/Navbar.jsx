@@ -7,11 +7,14 @@ export default function Navbar() {
     <div>
       <nav className="Navbar">
         <Link to="/" className="logo">
-          <i className="fas fa-shield-alt"></i> <span>CAPTIVATE</span>
+          <i className="fas fa-shield-alt"></i> <span>SAKAMZAT</span>
         </Link>
         <ul>
           <li>
             <Link to="/">HOME</Link>
+          </li>
+          <li>
+            <Link to="/">SERVICES</Link>
           </li>
           <li>
             <Link to="/about">ABOUT</Link>
